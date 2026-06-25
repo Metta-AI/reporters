@@ -1,5 +1,10 @@
 # reporters
 
+> **Archived:** This repository has moved to
+> [`Metta-AI/coworld-tools/reporters`](https://github.com/Metta-AI/coworld-tools/tree/main/reporters). This repository
+> remains available read-only for existing clones, links, branches, and tags. Make new changes in
+> `coworld-tools/reporters/`.
+
 Reporter implementations for **Coworlds** — on-demand runnables that turn one episode's bundle (`results.json`, `replay.json`, optional logs, optional config and error info) into a single zip containing a rendered highlight (`.md` or `.html`), a structured event log (Parquet), and optional machine traces.
 
 This is the canonical per-role repository for `Metta-AI/reporters`, one of the six Coworld supporting-role repos described in [`docs/specs/0045-coworld-role-repos.md`](../metta/docs/specs/0045-coworld-role-repos.md) in metta.
